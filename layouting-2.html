@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layouting-2</title>
+    <style>
+        .container1 {
+            display: flex;
+            background-color: blue;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+        }
+        body {
+            padding: 10px;
+        }
+        .container2 {
+            height: 400px;
+            display: flex;
+        }
+        .box {
+            background-color: gainsboro;
+            border: 1px solid black;
+            padding: 5px 10px;
+            height: fit-content;
+        }
+        .half-div1 {
+            width: 50%;
+            background-color: red;
+        }
+        .half-div2 {
+            width: 50%;
+            background-color: black;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h2>flexbox layout</h2>
+    <div class="container1">
+        <div class="box">
+            <p>box 1 </p>
+        </div>
+        <div class="box">
+            <p>box 2 </p>
+        </div>
+        <div class="box">
+            <p>box 3 </p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="half-div1">
+
+        </div>
+        <div class="half-div2">
+
+        </div>
+    </div>
+  </body>
+
+</html>
